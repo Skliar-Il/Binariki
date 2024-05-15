@@ -19,7 +19,7 @@ function friend_play {
             field[$((square-1))]=$player
 
             draw ${field[@]}
-            turn=$(($turns+1))
+            turns=$(($turns+1))
 
             check_win ${field[@]}
 
