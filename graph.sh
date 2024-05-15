@@ -11,6 +11,6 @@ function draw {
     echo " $7 | $8 | $9 "
 }
 
-draw 
+
 
 
