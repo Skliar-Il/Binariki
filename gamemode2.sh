@@ -10,7 +10,7 @@ function friend_play {
 
     draw ${field[@]}
 
-    while [[ $turns -lt 9 ]]
+    while [[ $turns -le 9 ]]
     do
         read -p "Введите номер ячейки: " square
         turn_go $square ${field[@]}
